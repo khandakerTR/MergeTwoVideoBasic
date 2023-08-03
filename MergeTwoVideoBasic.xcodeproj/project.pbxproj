@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78F123362A7C2D0F00894D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F123352A7C2D0F00894D5F /* AppDelegate.swift */; };
+		78F123382A7C2D0F00894D5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F123372A7C2D0F00894D5F /* SceneDelegate.swift */; };
+		78F1233A2A7C2D0F00894D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F123392A7C2D0F00894D5F /* ViewController.swift */; };
+		78F1233D2A7C2D0F00894D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F1233B2A7C2D0F00894D5F /* Main.storyboard */; };
+		78F1233F2A7C2D0F00894D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F1233E2A7C2D0F00894D5F /* Assets.xcassets */; };
+		78F123422A7C2D0F00894D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F123402A7C2D0F00894D5F /* LaunchScreen.storyboard */; };
+		78F1234D2A7C2D1000894D5F /* MergeTwoVideoBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1234C2A7C2D1000894D5F /* MergeTwoVideoBasicTests.swift */; };
+		78F123572A7C2D1000894D5F /* MergeTwoVideoBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F123562A7C2D1000894D5F /* MergeTwoVideoBasicUITests.swift */; };
+		78F123592A7C2D1000894D5F /* MergeTwoVideoBasicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F123582A7C2D1000894D5F /* MergeTwoVideoBasicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78F123492A7C2D1000894D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F1232A2A7C2D0F00894D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F123312A7C2D0F00894D5F;
+			remoteInfo = MergeTwoVideoBasic;
+		};
+		78F123532A7C2D1000894D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F1232A2A7C2D0F00894D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F123312A7C2D0F00894D5F;
+			remoteInfo = MergeTwoVideoBasic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78F123322A7C2D0F00894D5F /* MergeTwoVideoBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeTwoVideoBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F123352A7C2D0F00894D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78F123372A7C2D0F00894D5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78F123392A7C2D0F00894D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78F1233C2A7C2D0F00894D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78F1233E2A7C2D0F00894D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78F123412A7C2D0F00894D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78F123432A7C2D0F00894D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F123482A7C2D1000894D5F /* MergeTwoVideoBasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeTwoVideoBasicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F1234C2A7C2D1000894D5F /* MergeTwoVideoBasicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoVideoBasicTests.swift; sourceTree = "<group>"; };
+		78F123522A7C2D1000894D5F /* MergeTwoVideoBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeTwoVideoBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F123562A7C2D1000894D5F /* MergeTwoVideoBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoVideoBasicUITests.swift; sourceTree = "<group>"; };
+		78F123582A7C2D1000894D5F /* MergeTwoVideoBasicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoVideoBasicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78F1232F2A7C2D0F00894D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F123452A7C2D1000894D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F1234F2A7C2D1000894D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78F123292A7C2D0F00894D5F = {
+			isa = PBXGroup;
+			children = (
+				78F123342A7C2D0F00894D5F /* MergeTwoVideoBasic */,
+				78F1234B2A7C2D1000894D5F /* MergeTwoVideoBasicTests */,
+				78F123552A7C2D1000894D5F /* MergeTwoVideoBasicUITests */,
+				78F123332A7C2D0F00894D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78F123332A7C2D0F00894D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78F123322A7C2D0F00894D5F /* MergeTwoVideoBasic.app */,
+				78F123482A7C2D1000894D5F /* MergeTwoVideoBasicTests.xctest */,
+				78F123522A7C2D1000894D5F /* MergeTwoVideoBasicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78F123342A7C2D0F00894D5F /* MergeTwoVideoBasic */ = {
+			isa = PBXGroup;
+			children = (
+				78F123352A7C2D0F00894D5F /* AppDelegate.swift */,
+				78F123372A7C2D0F00894D5F /* SceneDelegate.swift */,
+				78F123392A7C2D0F00894D5F /* ViewController.swift */,
+				78F1233B2A7C2D0F00894D5F /* Main.storyboard */,
+				78F1233E2A7C2D0F00894D5F /* Assets.xcassets */,
+				78F123402A7C2D0F00894D5F /* LaunchScreen.storyboard */,
+				78F123432A7C2D0F00894D5F /* Info.plist */,
+			);
+			path = MergeTwoVideoBasic;
+			sourceTree = "<group>";
+		};
+		78F1234B2A7C2D1000894D5F /* MergeTwoVideoBasicTests */ = {
+			isa = PBXGroup;
+			children = (
+				78F1234C2A7C2D1000894D5F /* MergeTwoVideoBasicTests.swift */,
+			);
+			path = MergeTwoVideoBasicTests;
+			sourceTree = "<group>";
+		};
+		78F123552A7C2D1000894D5F /* MergeTwoVideoBasicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78F123562A7C2D1000894D5F /* MergeTwoVideoBasicUITests.swift */,
+				78F123582A7C2D1000894D5F /* MergeTwoVideoBasicUITestsLaunchTests.swift */,
+			);
+			path = MergeTwoVideoBasicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78F123312A7C2D0F00894D5F /* MergeTwoVideoBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F1235C2A7C2D1000894D5F /* Build configuration list for PBXNativeTarget "MergeTwoVideoBasic" */;
+			buildPhases = (
+				78F1232E2A7C2D0F00894D5F /* Sources */,
+				78F1232F2A7C2D0F00894D5F /* Frameworks */,
+				78F123302A7C2D0F00894D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeTwoVideoBasic;
+			productName = MergeTwoVideoBasic;
+			productReference = 78F123322A7C2D0F00894D5F /* MergeTwoVideoBasic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78F123472A7C2D1000894D5F /* MergeTwoVideoBasicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F1235F2A7C2D1000894D5F /* Build configuration list for PBXNativeTarget "MergeTwoVideoBasicTests" */;
+			buildPhases = (
+				78F123442A7C2D1000894D5F /* Sources */,
+				78F123452A7C2D1000894D5F /* Frameworks */,
+				78F123462A7C2D1000894D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F1234A2A7C2D1000894D5F /* PBXTargetDependency */,
+			);
+			name = MergeTwoVideoBasicTests;
+			productName = MergeTwoVideoBasicTests;
+			productReference = 78F123482A7C2D1000894D5F /* MergeTwoVideoBasicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78F123512A7C2D1000894D5F /* MergeTwoVideoBasicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F123622A7C2D1000894D5F /* Build configuration list for PBXNativeTarget "MergeTwoVideoBasicUITests" */;
+			buildPhases = (
+				78F1234E2A7C2D1000894D5F /* Sources */,
+				78F1234F2A7C2D1000894D5F /* Frameworks */,
+				78F123502A7C2D1000894D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F123542A7C2D1000894D5F /* PBXTargetDependency */,
+			);
+			name = MergeTwoVideoBasicUITests;
+			productName = MergeTwoVideoBasicUITests;
+			productReference = 78F123522A7C2D1000894D5F /* MergeTwoVideoBasicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78F1232A2A7C2D0F00894D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					78F123312A7C2D0F00894D5F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					78F123472A7C2D1000894D5F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 78F123312A7C2D0F00894D5F;
+					};
+					78F123512A7C2D1000894D5F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 78F123312A7C2D0F00894D5F;
+					};
+				};
+			};
+			buildConfigurationList = 78F1232D2A7C2D0F00894D5F /* Build configuration list for PBXProject "MergeTwoVideoBasic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78F123292A7C2D0F00894D5F;
+			productRefGroup = 78F123332A7C2D0F00894D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78F123312A7C2D0F00894D5F /* MergeTwoVideoBasic */,
+				78F123472A7C2D1000894D5F /* MergeTwoVideoBasicTests */,
+				78F123512A7C2D1000894D5F /* MergeTwoVideoBasicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78F123302A7C2D0F00894D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F123422A7C2D0F00894D5F /* LaunchScreen.storyboard in Resources */,
+				78F1233F2A7C2D0F00894D5F /* Assets.xcassets in Resources */,
+				78F1233D2A7C2D0F00894D5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F123462A7C2D1000894D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F123502A7C2D1000894D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78F1232E2A7C2D0F00894D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F1233A2A7C2D0F00894D5F /* ViewController.swift in Sources */,
+				78F123362A7C2D0F00894D5F /* AppDelegate.swift in Sources */,
+				78F123382A7C2D0F00894D5F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F123442A7C2D1000894D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F1234D2A7C2D1000894D5F /* MergeTwoVideoBasicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F1234E2A7C2D1000894D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F123572A7C2D1000894D5F /* MergeTwoVideoBasicUITests.swift in Sources */,
+				78F123592A7C2D1000894D5F /* MergeTwoVideoBasicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78F1234A2A7C2D1000894D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F123312A7C2D0F00894D5F /* MergeTwoVideoBasic */;
+			targetProxy = 78F123492A7C2D1000894D5F /* PBXContainerItemProxy */;
+		};
+		78F123542A7C2D1000894D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F123312A7C2D0F00894D5F /* MergeTwoVideoBasic */;
+			targetProxy = 78F123532A7C2D1000894D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78F1233B2A7C2D0F00894D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F1233C2A7C2D0F00894D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78F123402A7C2D0F00894D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F123412A7C2D0F00894D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78F1235A2A7C2D1000894D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78F1235B2A7C2D1000894D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78F1235D2A7C2D1000894D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4A9T7D84R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MergeTwoVideoBasic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TR.MergeTwoVideoBasic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78F1235E2A7C2D1000894D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4A9T7D84R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MergeTwoVideoBasic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TR.MergeTwoVideoBasic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78F123602A7C2D1000894D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4A9T7D84R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TR.MergeTwoVideoBasicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MergeTwoVideoBasic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MergeTwoVideoBasic";
+			};
+			name = Debug;
+		};
+		78F123612A7C2D1000894D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4A9T7D84R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TR.MergeTwoVideoBasicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MergeTwoVideoBasic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MergeTwoVideoBasic";
+			};
+			name = Release;
+		};
+		78F123632A7C2D1000894D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4A9T7D84R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TR.MergeTwoVideoBasicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MergeTwoVideoBasic;
+			};
+			name = Debug;
+		};
+		78F123642A7C2D1000894D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4A9T7D84R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TR.MergeTwoVideoBasicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MergeTwoVideoBasic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78F1232D2A7C2D0F00894D5F /* Build configuration list for PBXProject "MergeTwoVideoBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F1235A2A7C2D1000894D5F /* Debug */,
+				78F1235B2A7C2D1000894D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F1235C2A7C2D1000894D5F /* Build configuration list for PBXNativeTarget "MergeTwoVideoBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F1235D2A7C2D1000894D5F /* Debug */,
+				78F1235E2A7C2D1000894D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F1235F2A7C2D1000894D5F /* Build configuration list for PBXNativeTarget "MergeTwoVideoBasicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F123602A7C2D1000894D5F /* Debug */,
+				78F123612A7C2D1000894D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F123622A7C2D1000894D5F /* Build configuration list for PBXNativeTarget "MergeTwoVideoBasicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F123632A7C2D1000894D5F /* Debug */,
+				78F123642A7C2D1000894D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78F1232A2A7C2D0F00894D5F /* Project object */;
+}
